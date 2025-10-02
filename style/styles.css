@@ -7,7 +7,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #E8B3C9;
     min-height: 100vh;
 }
 
@@ -15,14 +15,14 @@ body {
 .page-container {
     max-width: 1200px;
     margin: 0 auto;
-    background: white;
+    background: #FFF5FA;
     min-height: 100vh;
-    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    box-shadow: 0 0 30px rgba(108, 30, 80, 0.1);
 }
 
 /* ==== ШАПКА ==== */
 .header {
-    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    background: #6C1E50;
     color: white;
     text-align: center;
     padding: 30px;
@@ -33,7 +33,7 @@ body {
 
 /* ==== НАВИГАЦИЯ ==== */
 .nav {
-    background: #2c3e50;
+    background: #6C1E50;
     padding: 20px 0;
 }
 
@@ -61,7 +61,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    background: rgba(255,255,255,0.1);
+    background: rgba(232, 179, 201, 0.2);
     transform: translateY(-2px);
 }
 
@@ -74,7 +74,7 @@ body {
 
 .page-title {
     text-align: center;
-    color: #2c3e50;
+    color: #6C1E50;
     margin-bottom: 40px;
     font-weight: 300;
 }
@@ -87,7 +87,7 @@ body {
 
 .profile-title {
     font-size: 32px;
-    color: #2c3e50;
+    color: #6C1E50;
     margin-bottom: 10px;
     font-weight: 300;
 }
@@ -98,31 +98,32 @@ body {
     border-radius: 15px;
     object-fit: cover;
     margin: 20px auto;
-    border: 4px solid #667eea;
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+    border: 4px solid #E8B3C9;
+    box-shadow: 0 8px 25px rgba(232, 179, 201, 0.4);
 }
 
 .profile-name {
     font-size: 24px;
-    color: #2c3e50;
+    color: #6C1E50;
     margin: 10px 0;
     font-weight: 500;
 }
 
 .profile-group {
     font-size: 18px;
-    color: #7f8c8d;
+    color: #8C4A6E;
     margin: 5px 0;
 }
 
 .about-me {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: #FCEAF5;
     padding: 25px;
     border-radius: 15px;
     margin: 30px 0;
-    border-left: 5px solid #667eea;
+    border-left: 5px solid #E8B3C9;
     font-size: 16px;
     line-height: 1.8;
+    color: #6C1E50;
 }
 
 /* ==== НАВЫКИ ==== */
@@ -135,19 +136,19 @@ body {
 }
 
 .skill-tag {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    color: white;
+    background: #E8B3C9;
+    color: #6C1E50;
     padding: 12px 25px;
     border-radius: 25px;
     font-weight: 600;
     font-size: 14px;
-    box-shadow: 0 4px 15px rgba(79, 172, 254, 0.3);
+    box-shadow: 0 4px 15px rgba(232, 179, 201, 0.4);
     transition: all 0.3s ease;
 }
 
 .skill-tag:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(79, 172, 254, 0.4);
+    box-shadow: 0 6px 20px rgba(232, 179, 201, 0.6);
 }
 
 /* ==== ОПЫТ РАБОТЫ ==== */
@@ -157,19 +158,19 @@ body {
 
 .section-title {
     font-size: 28px;
-    color: #2c3e50;
+    color: #6C1E50;
     text-align: center;
     margin-bottom: 30px;
     font-weight: 300;
 }
 
 .experience-card {
-    background: white;
+    background: #FFF5FA;
     padding: 25px;
     margin: 20px 0;
     border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    border-left: 4px solid #667eea;
+    box-shadow: 0 5px 20px rgba(108, 30, 80, 0.08);
+    border-left: 4px solid #E8B3C9;
     transition: transform 0.3s ease;
 }
 
@@ -179,13 +180,13 @@ body {
 
 .experience-title {
     font-size: 20px;
-    color: #2c3e50;
+    color: #6C1E50;
     margin: 0 0 10px 0;
     font-weight: 600;
 }
 
 .experience-desc {
-    color: #7f8c8d;
+    color: #8C4A6E;
     line-height: 1.6;
     margin: 0;
 }
@@ -198,27 +199,27 @@ body {
 }
 
 .news-card {
-    background: white;
+    background: #FFF5FA;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    border-left: 4px solid #4facfe;
+    box-shadow: 0 5px 20px rgba(108, 30, 80, 0.08);
+    border-left: 4px solid #E8B3C9;
 }
 
 .news-title {
-    color: #2c3e50;
+    color: #6C1E50;
     margin: 0 0 10px 0;
 }
 
 .news-meta {
-    color: #7f8c8d;
+    color: #8C4A6E;
     font-size: 14px;
     margin-bottom: 15px;
 }
 
 .news-text {
     line-height: 1.6;
-    color: #34495e;
+    color: #6C1E50;
 }
 
 /* ==== ТОВАРЫ ==== */
@@ -230,10 +231,10 @@ body {
 }
 
 .goods-card {
-    background: white;
+    background: #FFF5FA;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 20px rgba(108, 30, 80, 0.08);
     text-align: center;
     transition: transform 0.3s ease;
 }
@@ -251,30 +252,31 @@ body {
 }
 
 .goods-title {
-    color: #2c3e50;
+    color: #6C1E50;
     margin: 10px 0;
 }
 
 .goods-price {
-    color: #e74c3c;
+    color: #D32F6E;
     font-size: 20px;
     font-weight: 600;
     margin: 10px 0;
 }
 
 .buy-button {
-    background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
-    color: white;
+    background: #E8B3C9;
+    color: #6C1E50;
     border: none;
     padding: 10px 20px;
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    font-weight: 600;
 }
 
 .buy-button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+    box-shadow: 0 4px 15px rgba(232, 179, 201, 0.4);
 }
 
 /* ==== КОНТАКТЫ ==== */
@@ -286,13 +288,14 @@ body {
 }
 
 .contact-info {
-    background: #f8f9fa;
+    background: #FCEAF5;
     padding: 25px;
     border-radius: 12px;
+    color: #6C1E50;
 }
 
 .contact-form {
-    background: #f8f9fa;
+    background: #FCEAF5;
     padding: 25px;
     border-radius: 12px;
 }
@@ -302,9 +305,11 @@ body {
     width: 100%;
     padding: 12px;
     margin: 10px 0;
-    border: 1px solid #ddd;
+    border: 1px solid #E8B3C9;
     border-radius: 6px;
     font-size: 16px;
+    background: #FFF5FA;
+    color: #6C1E50;
 }
 
 .form-textarea {
@@ -313,18 +318,19 @@ body {
 }
 
 .submit-button {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: #E8B3C9;
+    color: #6C1E50;
     border: none;
     padding: 12px 30px;
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    font-weight: 600;
 }
 
 .submit-button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 4px 15px rgba(232, 179, 201, 0.4);
 }
 
 /* ==== ПРАКТИКИ ==== */
@@ -336,11 +342,11 @@ body {
 }
 
 .practice-card {
-    background: white;
+    background: #FFF5FA;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    border-left: 4px solid #f39c12;
+    box-shadow: 0 5px 20px rgba(108, 30, 80, 0.08);
+    border-left: 4px solid #E8B3C9;
 }
 
 .practice-status {
@@ -352,23 +358,23 @@ body {
 }
 
 .practice-status.completed {
-    background: #27ae60;
+    background: #8C4A6E;
     color: white;
 }
 
 .practice-status.in-progress {
-    background: #f39c12;
-    color: white;
+    background: #E8B3C9;
+    color: #6C1E50;
 }
 
 .practice-status.planned {
-    background: #7f8c8d;
-    color: white;
+    background: #D4A5C0;
+    color: #6C1E50;
 }
 
 /* ==== ФУТЕР ==== */
 .footer {
-    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    background: #6C1E50;
     color: white;
     text-align: center;
     padding: 30px;
