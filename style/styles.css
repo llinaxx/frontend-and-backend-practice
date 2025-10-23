@@ -128,11 +128,15 @@ body {
 
 /* ==== НАВЫКИ ==== */
 .skills-container {
+    margin: 30px 0;
+}
+
+.skills-row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
-    margin: 30px 0;
+    margin-top: 20px;
 }
 
 .skill-tag {
@@ -144,6 +148,7 @@ body {
     font-size: 14px;
     box-shadow: 0 4px 15px rgba(232, 179, 201, 0.4);
     transition: all 0.3s ease;
+    white-space: nowrap;
 }
 
 .skill-tag:hover {
@@ -398,5 +403,15 @@ body {
     
     .goods-container {
         grid-template-columns: 1fr;
+    }
+    
+    .skills-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .skill-tag {
+        white-space: normal;
+        text-align: center;
     }
 }
